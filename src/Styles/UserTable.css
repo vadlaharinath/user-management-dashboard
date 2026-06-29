@@ -1,0 +1,114 @@
+/* Table Wrapper */
+
+.table-container {
+  background: white;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+
+  overflow-x: auto;
+
+  margin-top: 20px;
+}
+
+/* Table */
+
+.user-table {
+  width: 100%;
+
+  border-collapse: collapse;
+}
+
+/* Header */
+
+.user-table thead {
+  background: #2563eb;
+
+  color: white;
+}
+
+.user-table th {
+  padding: 15px;
+
+  text-align: left;
+}
+
+/* Body */
+
+.user-table td {
+  padding: 14px;
+
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Hover Effect */
+
+.user-table tbody tr:hover {
+  background: #f9fafb;
+}
+
+/* Edit Button */
+
+.edit-btn {
+  background: #10b981;
+
+  color: white;
+
+  border: none;
+
+  padding: 8px 14px;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  margin-right: 8px;
+}
+
+.edit-btn:hover {
+  background: #059669;
+}
+
+/* Delete Button */
+
+.delete-btn {
+  background: #ef4444;
+
+  color: white;
+
+  border: none;
+
+  padding: 8px 14px;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 768px) {
+
+  .user-table th,
+  .user-table td {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .edit-btn,
+  .delete-btn {
+    display: block;
+
+    width: 100%;
+
+    margin-bottom: 5px;
+  }
+
+}

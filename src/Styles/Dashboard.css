@@ -1,0 +1,98 @@
+/* Entire Page */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Dashboard Container */
+
+.dashboard {
+  max-width: 1300px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: white;
+
+  padding: 20px;
+
+  margin-bottom: 20px;
+
+  border-radius: 10px;
+
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Dashboard Title */
+
+.header h1 {
+  margin: 0;
+
+  color: #333;
+
+  font-size: 28px;
+}
+
+/* Add User Button */
+
+.add-user-btn {
+  background: #2563eb;
+
+  color: white;
+
+  border: none;
+
+  padding: 12px 20px;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  font-size: 15px;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+.add-user-btn:hover {
+  background: #1d4ed8;
+}
+
+/* Form Modal Space */
+
+.dashboard form {
+  margin-bottom: 20px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+
+  .header {
+    flex-direction: column;
+
+    gap: 15px;
+
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 22px;
+  }
+
+  .add-user-btn {
+    width: 100%;
+  }
+
+}
